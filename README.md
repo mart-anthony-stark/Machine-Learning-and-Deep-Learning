@@ -1,2 +1,2 @@
-# Machine-Learning-Daily-from-Scratch
+# Machine-Learning-Daily
 A repository of my jupyter notebooks in studying machine learning algorithms for data science
