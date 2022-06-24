@@ -1,0 +1,17 @@
+{
+  "name": "JavaScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "objects.js",
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.15",
+    "gpu.js": "^2.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
