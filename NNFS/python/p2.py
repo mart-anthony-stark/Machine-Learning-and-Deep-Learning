@@ -1,3 +1,4 @@
+# Basic Neuron Layer
 # 4 inputs 3 neurons
 inputs = [1, 2, 3, 2.5]
 
