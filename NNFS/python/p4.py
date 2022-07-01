@@ -1,3 +1,4 @@
+# Layers and Object
 import numpy as np
 
 np.random.seed(0)
@@ -14,6 +15,7 @@ class DenseLayer:
 
     def forward(self, inputs):
         return np.dot(inputs, self.weights) + self.biases
+
 
 layer1 = DenseLayer(4, 5)
 layer2 = DenseLayer(5, 2)
