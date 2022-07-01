@@ -1,3 +1,4 @@
+# Dot Product
 import numpy as np
 
 # inputs = [1, 2, 3, 2.5]
