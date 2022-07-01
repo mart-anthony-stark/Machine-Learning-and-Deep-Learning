@@ -4,6 +4,10 @@ A repository of my activities, jupyter notebooks, datasets used in machine learn
 
 ## Contents
 
+- [Linear Regression](https://github.com/mart-anthony-stark/Machine-Learning-Daily#linear-regression)
+- [Neural Networks](https://github.com/mart-anthony-stark/Machine-Learning-Daily#neural-networks)
+- [Machine Learning in JavaScript](https://github.com/mart-anthony-stark/Machine-Learning-Daily#machine-learning-in-javascript)
+
 ### Linear Regression
 
 Linear regression is one of the most basic forms of machine learning and is used to predict numeric values.
@@ -22,4 +26,5 @@ A neural network is a series of algorithms that endeavors to recognize underlyin
 - [Feedforward NN Diabetes dataset](https://github.com/mart-anthony-stark/Machine-Learning-Daily/blob/main/Neural%20Nets/Feedforward_Diabetes_Research.ipynb) - Feedforward neural network is a type of artificial neural network in which nodes' connections do not form a loop.
 
 ### Machine Learning in JavaScript
+
 - [Color Brightness Predictor](https://github.com/mart-anthony-stark/Machine-Learning-Daily/blob/main/JavaScript/objects.js)
