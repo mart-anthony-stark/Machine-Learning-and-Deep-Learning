@@ -7,6 +7,7 @@ A repository of my activities, jupyter notebooks, datasets used in machine learn
 - [Linear Regression](https://github.com/mart-anthony-stark/Machine-Learning-Daily#linear-regression)
 - [Neural Networks](https://github.com/mart-anthony-stark/Machine-Learning-Daily#neural-networks)
 - [Machine Learning in JavaScript](https://github.com/mart-anthony-stark/Machine-Learning-Daily#machine-learning-in-javascript)
+- [Exploratory Data Analysis](https://github.com/mart-anthony-stark/Machine-Learning-Daily#eda)
 
 ### Linear Regression
 
@@ -28,3 +29,9 @@ A neural network is a series of algorithms that endeavors to recognize underlyin
 ### Machine Learning in JavaScript
 
 - [Color Brightness Predictor](https://github.com/mart-anthony-stark/Machine-Learning-Daily/blob/main/JavaScript/objects.js)
+
+### EDA
+
+In statistics, exploratory data analysis is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods.
+
+- [2018-19 NBA Stats Data Analysis](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning/blob/main/EDA/2018_19_NBA_Player_Stats_Per_Game_EDA.ipynb)
