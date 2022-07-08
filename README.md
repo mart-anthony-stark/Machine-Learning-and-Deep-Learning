@@ -1,4 +1,4 @@
-![Machine Learning and Deep Learning](https://raw.githubusercontent.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning/main/banner.webp)
+<img alt="Machine Learning and Deep Learning" src="https://raw.githubusercontent.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning/main/banner.webp" width="100%"/>
 
 # Machine-Learning-Daily
 
