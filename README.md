@@ -1,3 +1,5 @@
+![Machine Learning and Deep Learning](https://raw.githubusercontent.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning/main/banner.webp)
+
 # Machine-Learning-Daily
 
 A repository of my activities, jupyter notebooks, datasets used in machine learning algorithms for data science
