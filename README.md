@@ -10,6 +10,7 @@ A repository of my activities, jupyter notebooks, datasets used in machine learn
 - [Neural Networks](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning#neural-networks)
 - [Machine Learning in JavaScript](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning#machine-learning-in-javascript)
 - [Exploratory Data Analysis](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning#eda)
+- [E2E Web App](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning#e2e-data-science-web-app)
 
 ### Linear Regression
 
@@ -40,4 +41,5 @@ In statistics, exploratory data analysis is an approach of analyzing data sets t
 - [2021-22 NBA Stats Data Analysis](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning/blob/main/EDA/2021_22_NBA_Player_Stats_Per_Game_EDA.ipynb)
 
 ### E2E Data Science Web App
+
 - [NBA Player Stats Explorer](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning/tree/main/data-science-web/NBA%20stats%20explorer)
