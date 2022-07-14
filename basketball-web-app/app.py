@@ -4,7 +4,7 @@ import base64
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-
+st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title("NBA Player Stats Explorer")
 
 st.markdown("""
@@ -31,3 +31,38 @@ playerstats = load_data(selected_year)
 # Sidebar - Team selection
 sorted_unique_team = sorted(playerstats['Tm'].unique())
 selected_team = st.sidebar.multiselect('Team', sorted_unique_team, sorted_unique_team)
+
+# Sidebar - Position selection
+unique_pos = ['C','PF','SF','PG','SG']
+selected_pos = st.sidebar.multiselect('Position', unique_pos, unique_pos)
+
+# Filtering data
+df_selected_team = playerstats[(playerstats['Tm'].isin(selected_team)) & (playerstats['Pos'].isin(selected_pos))]
+
+st.header('Player Stats of Selected Team(s)')
+st.write('Data Dimension: ' + str(df_selected_team.shape[0]) + ' rows and ' + str(df_selected_team.shape[1]) + ' columns.')
+st.dataframe(df_selected_team.astype(str))
+
+# Download NBA player stats data
+# https://discuss.streamlit.io/t/how-to-download-file-in-streamlit/1806
+def filedownload(df):
+    csv = df.to_csv(index=False)
+    b64 = base64.b64encode(csv.encode()).decode()  # strings <-> bytes conversions
+    href = f'<a href="data:file/csv;base64,{b64}" download="playerstats.csv">Download CSV File</a>'
+    return href
+
+st.markdown(filedownload(df_selected_team), unsafe_allow_html=True)
+
+# Heatmap
+if st.button('Intercorrelation Heatmap'):
+    st.header('Intercorrelation Matrix Heatmap')
+    df_selected_team.to_csv('output.csv',index=False)
+    df = pd.read_csv('output.csv')
+
+    corr = df.corr()
+    mask = np.zeros_like(corr)
+    mask[np.triu_indices_from(mask)] = True
+    with sns.axes_style("white"):
+        f, ax = plt.subplots(figsize=(7, 5))
+        ax = sns.heatmap(corr, mask=mask, vmax=1, square=True)
+    st.pyplot()
