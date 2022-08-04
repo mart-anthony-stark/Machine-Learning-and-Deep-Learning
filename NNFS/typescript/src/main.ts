@@ -1,3 +1,3 @@
 import { uid } from "uid";
-
-console.log(uid());
+import {NeuralPoint} from './utils'
+console.log(typeof uid());
