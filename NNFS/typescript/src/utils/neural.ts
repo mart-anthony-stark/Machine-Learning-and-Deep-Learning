@@ -5,10 +5,10 @@ import { uid } from "uid";
  */
 export class NeuralPoint {
   readonly id: string = uid();
-  readonly bias: number;
   readonly incoming: any;
-  readonly error: number; // E'(f(x))
 
+  bias: number;
+  error: number; // E'(f(x))
   outgoing: any;
   _output: number; // f'(x)
   output: number; // f(x)
@@ -76,5 +76,37 @@ export class NeuralPoint {
     }
 
     return this.output;
+  }
+
+  propagate(target: any, rate = 0.3) {
+    const self = this;
+
+    //𝛿E /𝛿squash
+    const sum =
+      target == undefined
+        ? Object.keys(this.outgoing.targets).reduce(function (
+            total,
+            target,
+            index
+          ) {
+            // Δweight
+            self.outgoing.targets[target].incoming.weights[self.id] =
+              self.outgoing.weights[target] -=
+                rate * self.outgoing.targets[target].error * self.output;
+
+            return (total +=
+              self.outgoing.targets[target].error *
+              self.outgoing.weights[target]);
+          },
+          0)
+        : this.output - target;
+
+    // 𝛿squash/𝛿sum
+    this.error = sum * this._output;
+
+    // Δbias
+    this.bias -= rate * this.error;
+
+    return this.error;
   }
 }
