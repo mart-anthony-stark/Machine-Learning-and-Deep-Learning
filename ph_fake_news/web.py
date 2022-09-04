@@ -27,7 +27,8 @@ def index():
     return jsonify(data=data,
                   processed_data=processed_data,
                   is_fake=int(prediction[0]),
-                  probability=float(probability[0]),
+                  real_probability=float(probability[0]),
+                  fake_probability=float(probability[1]),
                   prediction_output=predict_output
                   )
   else:
