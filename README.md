@@ -11,6 +11,7 @@ A repository of my activities, jupyter notebooks, datasets used in machine learn
 - [Machine Learning in JavaScript](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning#machine-learning-in-javascript)
 - [Exploratory Data Analysis](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning#eda)
 - [E2E Web App](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning#e2e-data-science-web-app)
+- [Natural Language Processing](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning#natural-language-processing)
 
 ### Linear Regression
 
