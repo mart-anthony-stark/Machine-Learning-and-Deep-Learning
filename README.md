@@ -49,6 +49,7 @@ In statistics, exploratory data analysis is an approach of analyzing data sets t
 ### Natural Language Processing
 
 - [PH Fake News Detection](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning/tree/main/ph_fake_news)
+- [Spam Messages Detection](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning/blob/main/Spam_Detection_ML.ipynb)
 
 ### Classification
 
