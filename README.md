@@ -44,8 +44,9 @@ In statistics, exploratory data analysis is an approach of analyzing data sets t
 
 ### E2E Data Science Web App
 
+- [Penguin Classifier Web App](https://github.com/mart-anthony-stark/Penguin-Classifier-ML-Web-App)
 - [NBA Player Stats Explorer](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning/tree/main/data-science-web/NBA%20stats%20explorer)
-
+- [Iris Flower Classifier Web App](https://github.com/mart-anthony-stark/IRIS-Classification-ML-Web-App)
 ### Natural Language Processing
 
 - [PH Fake News Detection](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning/tree/main/ph_fake_news)
