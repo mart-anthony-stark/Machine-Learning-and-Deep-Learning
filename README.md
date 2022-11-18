@@ -58,3 +58,4 @@ Classification is a process of categorizing a given set of data into classes, It
 
 - [Music-age-genre prediction](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning/blob/main/Music_age_genre_prediction.ipynb)
 - [MNIST Digit Classification](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning/blob/main/MNIST.ipynb)
+- [Fake News Detection](https://github.com/mart-anthony-stark/Machine-Learning-and-Deep-Learning/blob/main/Fake%20News%20Detection/Fake_News_Detection_NLP.ipynb)
